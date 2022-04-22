@@ -1,0 +1,20 @@
+{
+  "action": {
+    "default_icon": "logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [ "https://www.linkedin.com/mynetwork/" ],
+      "js": [ "content.js" ]
+    }
+  ],
+  "icons": {
+    "128": "logo.png"
+  },
+  "manifest_version": 3,
+  "name": "Linkedin Request Sendor",
+  "permissions": [
+    "activeTab"
+  ],
+  "version": "1.0"
+}
